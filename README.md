@@ -1,17 +1,16 @@
 # Assignment
-Create a one page application following the LO-FIs given in this assignment.
+Create an one page application following the requirements given in this assignment.
 
 We suggest to use create-react-app typescript for your setup.
 
-Juniors can do either the backend or frontend test. 
-Intermediate engineers and above are also expected to complete backend test to persist the data.
+Intermediate engineers and above are also expected to complete [backend test](https://github.com/sevenbridgesnz/recruit-backend-dotnet) to persist the data. If you are completing the backend test, please make sure both front end and backend are connected, eg front end is fetching data from the backend.
 
-## LO-FI
-Remember these are LO-FI and should only be treated as such. 
+## Demonstration of Concepts
+Remember this assignment is supposed to demonstrate knowledge of concepts and should be treated as such.
 You are asked to write a simple ordering program that will collect order information
-and when submitted, it will display list of ordered items on the main screen.
+and when submitted, it will display list of ordered items on the main screen. We are not looking for the perfect implementation, but for demonstration of knowledge of the technologies.
 
-## Spec
+## Specs
 These are the only functional requirements for your implementation:
 
 ### Navigation
@@ -26,7 +25,7 @@ Selecting 'New Item' will navigate to `\new` page where a new order item can be 
 
 ### Inputs
 - First Name
-  - Must not be longer than 20 characters
+  - Optional, must not be longer than 20 characters
 - Last Name
   - Must be entered, no longer than 20 characters
 - Order description
@@ -36,36 +35,36 @@ Selecting 'New Item' will navigate to `\new` page where a new order item can be 
 
 ### Submit
 - You cannot submit until input fields are valid
+- Validation error shows if the input cannot be submitted
 - After submitting the item, it will navigate back to the landing page where list of orders will be displayed
 
 ## Data Storage
 
-If the assignment is front-end only, a simple state management or 
-Redux store (preferable) to store data is sufficient. 
+If you have been asked, please complete the [backend assignment](https://github.com/sevenbridgesnz/recruit-backend-dotnet) as well. If the assignment is front-end only, a simple state management or
+Redux store (preferable) is sufficient though mocking up the API communication with tools as [Beeceptor](https://beeceptor.com/) is highly valued.
 
 ## What is valued
-- Tests
-- Typescript
+- Demonstration of concepts. Even though full implementation might not be complete because of time constrains, demonstrating knowledge of patterns and technologies is highly valued.
 - Clean Code
+- Typescript
 - State Management
+- Tests
 - Design (Responsive)
 - Accessibility
 
 ## Duration
-Use roughly 3 hours on this assignment. You are only expected to do work on 
-this assignment that matches the skill level of the role you are applying for, but you are welcome to do as much as you like. 
-You are not expected to do everything in this assignment because of the short time duration of the assignment,
-but rather demonstrate familiarity with the technologies.
-
+You are only expected to do work on
+this assignment that matches the skill level of the role you are applying for, but you are welcome to do as much as you like.
 
 # Tools & Tech
-You can use any tools, plugins and technologies as required for you to complete this assignment. 
+You can use any tools, plugins and technologies as required for you to complete this assignment.
 We expect that you in this assignment demonstrate competencies with the following technologies:
 
 -	React
 -	Typescript
 - State Management
+- Integration with the API
 -	CSS
 
 # Submitting Assignment
-Feel free to create a public GitHub repo or private GitHub repo where you invite sevenbridgesnz. He can give access to the right people.
+Feel free to create a public GitHub repo or private GitHub repo where you invite [sevenbridgesnz](https://github.com/sevenbridgesnz) so we can give access to the right people.
